@@ -107,6 +107,29 @@
   6. მოცემულია 4 ნიშნა რიცხვი. დავთვალოთ მისი ლუწი ციფრების ჯამი.
   1234 |  6
 */
+	{
+		int n = 2222;
+		int first;
+		int second;
+		int third;
+		int fourth;
+		
+		first = n % 10;
+		second = n % 100 / 10;
+		third = n % 1000 / 100;
+		fourth = n % 10000 / 1000;
+		
+		int remainder1 = 1 - first % 2;
+		int remainder2 = 1 - second % 2;
+		int remainder3 = 1 - third % 2;
+		int remainder4 = 1 - fourth % 2;
+		
+		int first1 = first * remainder1;
+		int second1 = second * remainder2;
+		int third1 = third * remainder3;
+		int fourth1 = fourth * remainder4;
 
-
+		int result;
+		result = first1 + second1 + third1 + fourth1;
+	}
 

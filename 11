@@ -87,3 +87,16 @@ result ცვლადში მოვათავსოთ true თუ არ�
 Input | Output
 20    | true
 13    | false
+
+{
+	int k;
+	bool result;
+	if (k % 4 = 0)
+	{
+	result = true;
+	}
+	else
+	{
+	result = false;
+	}
+}

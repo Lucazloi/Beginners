@@ -137,5 +137,35 @@ Intput | Output
   Input | Result
   50    | 1 2 4 8 16 32
   */
+  {
+  	int power = 2;
+	bool i = false;
+	int N = 32;
+	int o = 1;
+	while(o<N)
+	{
+		o = o * power;
+		if(o == N)
+		{
+			i = true;
+		}
+	}
+  }
   
-  
+  /*
+ 8. 
+  */
+  {
+	int power = 2;
+	bool i = false;
+	int N = 32;
+	int o = 1;
+	while(o<N)
+	{
+		o = o * power;
+		if(o == N)
+		{
+			i = true;
+		}
+	}
+}
